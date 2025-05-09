@@ -64,14 +64,6 @@ export const cards = [
     rating: 4.5
   },
   {
-    id: 9,
-    name: "Tara Singh",
-    imgUrl: "images/models/model9.jpg",
-    location: "Delhi, India",
-    tags: ["portrait", "cultural", "daylight"],
-    rating: 3.5
-  },
-  {
     id: 10,
     name: "Chloe Bennett",
     imgUrl: "images/models/pexels-photo-10739571.jpg",
