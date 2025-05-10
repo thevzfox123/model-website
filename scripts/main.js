@@ -79,3 +79,18 @@ document.querySelectorAll('.ri-heart-fill').forEach(icon => {
     localStorage.setItem('likedCards', JSON.stringify(likedCards));
   });
 });
+
+const hamburgerElement = document.querySelector('.hamburger'); 
+const navbar = document.querySelector('.nav');
+
+hamburgerElement.addEventListener('click', (e) => {
+  e.stopPropagation(); // Prevent the click from bubbling to the document
+  navbar.classList.toggle('nav__open');
+});
+
+
+document.addEventListener('click', () => {
+  if (navbar.classList.contains('nav__open')) {
+    navbar.classList.remove('nav__open')
+  }
+});
