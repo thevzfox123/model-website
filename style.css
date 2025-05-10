@@ -404,7 +404,17 @@
   cursor: pointer;
   box-shadow: 0 8px 9px black;
   animation: scaleUp 2s cubic-bezier(0.25, 0.8, 0.25, 1) infinite alternate;
+  visibility: hidden;
+  transform: translateX(-100%);
+  opacity: 0;
 }
+
+.back__to__top.visible {
+  visibility: visible;
+  opacity: 1; 
+  transform: translateY(0); 
+}
+
 
 @keyframes scaleUp {
   0% {
