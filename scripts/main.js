@@ -94,3 +94,4 @@ document.addEventListener('click', () => {
     navbar.classList.remove('nav__open')
   }
 });
+
