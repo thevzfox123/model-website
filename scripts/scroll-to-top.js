@@ -13,7 +13,7 @@ document.addEventListener('DOMContentLoaded', () => {
 function toggleScrollButton() {
   const button = document.querySelector('.back__to__top');
   // Show the button when the user scrolls down a bit (e.g., 200px)
-  if (window.scrollY > 200) {
+  if (window.scrollY > 300) {
     button.classList.add('visible');
   } else {
     button.classList.remove('visible');
