@@ -27,8 +27,8 @@ function renderHeader() {
 
   if (window.scrollY > 100) {
     header.classList.add('header__scroll');
-  } else if (window.scrollY < 100) {
-    header.classList.remove('header__shown');
+  } else {
+    header.classList.remove('header__scroll');
   }
 };
 
