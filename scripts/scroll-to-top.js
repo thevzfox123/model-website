@@ -21,3 +21,15 @@ function toggleScrollButton() {
 }
 
 window.addEventListener('scroll', toggleScrollButton);
+
+function renderHeader() {
+  const header = document.querySelector('.header');
+
+  if (window.scrollY > 100) {
+    header.classList.add('header__scroll');
+  } else if (window.scrollY < 100) {
+    header.classList.remove('header__shown');
+  }
+};
+
+window.addEventListener('scroll', renderHeader);

@@ -36,7 +36,7 @@ export const cards = [
     name: "Nina Alvarado",
     imgUrl: "images/models/pexels-photo-1756472.jpg",
     location: "Barcelona, Spain",
-    tags: ["studio", "black and white", "beauty"],
+    tags: ["studio", "Fair skin", "beauty"],
     rating: 3
   },
   {
@@ -53,7 +53,7 @@ export const cards = [
     imgUrl: "images/models/pexels-photo-3757033.jpg",
     location: "Milan, Italy",
     tags: ["editorial", "studio", "classy"],
-    rating: 2
+    rating: 3.5
   },
   {
     id: 8,
@@ -69,7 +69,7 @@ export const cards = [
     imgUrl: "images/models/pexels-photo-10739571.jpg",
     location: "Sydney, Australia",
     tags: ["editorial", "fashion", "minimal"],
-    rating: 1.5
+    rating: 3.5
   }
 ];
 

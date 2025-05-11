@@ -23,9 +23,12 @@ cards.forEach((card) => {
           <span class="rating__info">ratings:</span>
           <img src="images/ratings/rating-${Math.round(card.rating * 10)}.png" alt="rating">
         </span>
+        <div class="like__container">
         <span class="span-icons" title="like">
           <i class="ri-heart-fill like-icon" data-id="${card.id}"></i>
         </span>
+        <span class="likes">${initialLikes}</span>
+        </div>
       </div>
 
       <div class="card-button">
@@ -33,7 +36,7 @@ cards.forEach((card) => {
       </div>
     </div>
 
-    <span class="likes">${initialLikes}</span>
+    
   </div>
   `;
 });
