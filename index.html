@@ -1,61 +1,78 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Welcome</title>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Welcome</title>
 
-<!-- ==== YOU CAN ALSO FIND THE HEART IMAGE I USED IN THIS WEBSITE 
+    <!-- ==== YOU CAN ALSO FIND THE HEART IMAGE I USED IN THIS WEBSITE 
 
  (https://www.freeiconspng.com/img/38780) 
  
- JUST CLICK THE LINK ITS STILL CLICKABLE EVEN THOUGH IT IS COMMENTED OUT 
  ===== -->
 
+    <!-- ===== ICONS LINKS ===== -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
 
-  <!-- ===== ICONS LINKS ===== -->
-    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
-    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <!-- ===== CSS LINKS! ===== -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <img src="images/logo.png" alt="" class="logo" />
 
-     <!-- ===== CSS LINKS! ===== -->
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
-  <header class="header">
-    <img src="images/logo.png" alt="" class="logo">
+      <nav class="nav">
+        <div class="header__nav">
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">about</a></li>
+            <li>
+              <a
+                href="https://vay-dev.github.io/portfolio/"
+                target="_blank"
+                rel="noopener noreferrer"
+                >portfolio</a
+              >
+            </li>
+            <li><a href="#">contact</a></li>
+          </ul>
+        </div>
+      </nav>
 
-    <nav class="nav">
-      <div class="header__nav">
-        <ul>
-          <li><a href="#">Home</a></li>
-          <li><a href="#">about</a></li>
-          <li><a href="https://vay-dev.github.io/portfolio/" target="_blank" rel="noopener noreferrer">portfolio</a></li>
-          <li><a href="#">contact</a></li>
-        </ul>
+      <div class="hamburger">
+        <i class="ri-menu-3-line"></i>
       </div>
-    </nav>
-    
+    </header>
 
-    <div class="hamburger">
-      <i class="ri-menu-3-line"></i>
+    <div class="title">
+      <p>
+        <span class="title__text">L</span>ooking for models to hire? dont worry
+        we got you covered
+      </p>
     </div>
-  </header>
 
-  <div class="title">
-    <p><span class="title__text">L</span>ooking for models to hire? dont worry we got you covered</p>
-  </div>
-
-  <div class="card__grid__container">
-    <div class="card__grid">
+    <div class="card__grid__container">
+      <div class="card__grid"></div>
     </div>
-  </div>
 
-  <div class="back__to__top">
-    <button title="back to top" onclick="scrollToTop()"><i class='bx bx-up-arrow-alt'></i></button>
-  </div>
+    <div class="back__to__top">
+      <button title="back to top" onclick="scrollToTop()">
+        <i class="bx bx-up-arrow-alt"></i>
+      </button>
+    </div>
 
-  <script src="scripts/scroll-to-top.js"></script>
-  <script type="module" src="scripts/main.js"></script>
-</body>
+    <script src="scripts/scroll-to-top.js"></script>
+    <script type="module" src="scripts/main.js"></script>
+  </body>
 </html>
